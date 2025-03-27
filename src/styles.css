@@ -24,13 +24,21 @@ header {
 a {
   color: #cca8e9;
 }
-form {
-  padding: 30px;
+.form-container {
+  padding: 15px;
   border-radius: 10px;
   background-color: white;
-  display: flex;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.hint {
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+form {
+  display: flex;
 }
 .instructions {
   padding: 16px;
@@ -70,7 +78,9 @@ h1 {
   border-left: 3px solid #cca8e9;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
-
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 13px;
